@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "test-coverage": "nyc --check-coverage=true ==statements=100 mocha"
+    "test-coverage": "nyc --check-coverage=true --statements=100 mocha"
   },
   "author": "Jamison Tucker",
   "license": "MIT",
